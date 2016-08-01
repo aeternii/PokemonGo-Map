@@ -6,22 +6,28 @@
   "env": {
     "AUTH_SERVICE": {
       "description": "Authentication service to use. (ptc or google)"
+      "required": false
     },
     "USERNAME": {
       "description": "Your username to login to the specified authentication service."
+      "required": false
     },
     "PASSWORD": {
       "description": "Your password to login to the specified authentication service."
+      "required": false
     },
     "LOCATION": {
       "description": "Location on which the map should be centered. This can be an address, co-ordinates or anything that Google Maps accepts."
+      "required": false
     },
     "GMAPS_KEY": {
       "description": "A Google Maps API key for this application."
+      "required": false
     },
     "STEP_COUNT": {
       "description": "The number of steps to take.",
-      "value": "5"
+      "value": "5
+      "required": false
     },
     "EXTRA_ARGS": {
       "description": "Any extra arguments that you want to pass to runserver.py.",
